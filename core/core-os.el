@@ -44,6 +44,8 @@
     :commands exec-path-from-shell-initialize
     :init (exec-path-from-shell-initialize))
 
+  (setq mac-right-option-modifier 'none)             ;; Make right alt-key not a meta key, for norwegian keyboard purposes.
+
   (setq ns-use-thin-smoothing nil                    ;; Dont use thinner strokes on macOS
         mouse-wheel-flip-direction t                 ;; Change scrolling to new macOS defaults
         mouse-wheel-tilt-scroll t                    ;; Change scrolling to new macOS defaults

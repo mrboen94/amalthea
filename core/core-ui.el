@@ -22,10 +22,10 @@
 
 ;;; Code:
 
-(defvar amalthea-mono-font "PragmataPro Mono Liga"
+(defvar amalthea-mono-font "Iosevka"
   "The default monospaced font that Amalthea uses.")
 
-(defvar amalthea-serif-font "PragmataPro Liga"
+(defvar amalthea-serif-font "Iosevka"
   "The default sans serif font that Amalthea uses.")
 
 (defvar amalthea-line-spacing 0.15
