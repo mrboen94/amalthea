@@ -20,7 +20,7 @@ I am currently using [[https://github.com/emacscollective/borg][Borg]] to manage
 trying out my configuration is very easy:
 
 #+BEGIN_SRC shell
-  git clone https://github.com/mrboen94/amalthea.git ~/.emacs.d
+  git clone git@github.com:mrboen94/amalthea.git ~/.emacs.d
   cd ~/.emacs.d/
   make bootstrap-borg
   make bootstrap
